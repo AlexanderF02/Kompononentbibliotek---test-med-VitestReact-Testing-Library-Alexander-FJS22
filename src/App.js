@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import CollectionPage from './CollectionPage';
-import MenPage from './src/MenPage';
-import WomenPage from './src/WomenPage';
-import AboutPage from './src/AboutPage';
-import ContactPage from './src/ContactPage';
+import CollectionPage from '../CollectionPage';
+import MenPage from './MenPage';
+import WomenPage from './WomenPage';
+import AboutPage from './AboutPage';
+import ContactPage from './ContactPage';
 import './index.css'; // Import the CSS file
 
 function App() {
